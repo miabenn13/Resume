@@ -30,6 +30,7 @@ body {
   grid-area: l;
   display: grid;
   grid-template-columns: 15% 85%;
+  margin-top: -10px;
   /* grid-gap: 20px; */
 }
 
@@ -127,19 +128,16 @@ nav{
     transform: scale(.9);
     margin-top: 40px; */
   }
-/* 
-  h1{
-    margin-left: 20px;
-  } */
 
 /* name */
 h1{
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 65px;
+  font-size: 60px;
   margin-left: 15px;
-  margin-top: 45px;
+  /* margin-top: 15px; */
   color: rgb(128, 137, 192);
+  display: inline;
 }
 
 /* artist - graphic designer */
