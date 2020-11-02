@@ -123,15 +123,14 @@ nav{
     margin: 0 auto;
   }
 
-  svg{
+  /* svg{
     transform: scale(.9);
-    margin-top: 40px;
+    margin-top: 40px; */
   }
-
+/* 
   h1{
     margin-left: 20px;
-  }
-}
+  } */
 
 /* name */
 h1{
