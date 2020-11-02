@@ -100,7 +100,7 @@ nav{
 
 
 /* STEP 3 - BUILD YOUR MOBILE GRID, WHAT BECOMES ACTIVE WHEN PIXELS ARE 800PX OR LESS */
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1200px){
   .container{
     display: grid;
     grid-gap: 3px;
