@@ -27,20 +27,16 @@ body {
 
 /* STEP 1 - WRITE IN EACH OF YOUR SECTIONS AND ASSIGN EACH A LETTER */
 .logo{
-  grid-area: l;
-  display: grid;
-  grid-template-columns: 15% 85%;
+  position: absolute;
   margin-top: -10px;
+  margin-left: -350px;
   /* grid-gap: 20px; */
 }
 
 svg{
   margin-top: 35px;
+  margin-left: -15px;
   max-height: 90px;
-
-  /* delete background color once bug is fixed */
-  background-color: grey;
-  /* transform: translate(-250px, 0px); */
 }
 
 
@@ -50,6 +46,7 @@ nav{
   font-family: 'Roboto', sans-serif;
   font-weight: 500; 
   font-size: 15px;
+  margin-top: 150px;
 }
 
 /* header{
@@ -93,7 +90,7 @@ nav{
   grid-template-rows: auto;
   /* use letters from step 1 to build the grid */
   grid-template-areas:
-    "l l"
+    ". ."
     "n n"
     "e e"
     "x w"
@@ -139,8 +136,8 @@ h1{
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 60px;
-  margin-left: 15px;
-  margin-top: 30px;
+  margin-left: 500px;
+  margin-top: -100px;
   color: rgb(128, 137, 192);
   /* display: inline; */
 }
@@ -228,4 +225,32 @@ a:active {
   color: #0000FF;
   text-decoration: none;
   margin: 20px;
+}
+/* Iphone in Safari version*/
+@media screen and (max-width: 736px){
+
+  .logo{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -260px;
+    /* grid-gap: 20px; */
+  }
+  h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size:50px;
+    margin-left: 365px;
+    margin-top: -90px;
+    color: rgb(128, 137, 192);
+    /* display: inline; */
+  }
+
+  nav{
+    grid-area: n;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    font-size: 13px;
+    margin-top: 150px;
+  }
 }
