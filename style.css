@@ -37,6 +37,10 @@ body {
 svg{
   margin-top: 35px;
   max-height: 90px;
+
+  /* delete background color once bug is fixed */
+  background-color: grey;
+  /* transform: translate(-250px, 0px); */
 }
 
 
@@ -96,8 +100,8 @@ nav{
     "a s";
     gap: 2em;
 
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 
