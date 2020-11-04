@@ -35,7 +35,8 @@ body {
 }
 
 svg{
-  margin-top: 30px;
+  margin-top: 35px;
+  max-height: 90px;
 }
 
 
@@ -135,9 +136,9 @@ h1{
   font-weight: 700;
   font-size: 60px;
   margin-left: 15px;
-  /* margin-top: 15px; */
+  margin-top: 30px;
   color: rgb(128, 137, 192);
-  display: inline;
+  /* display: inline; */
 }
 
 /* artist - graphic designer */
